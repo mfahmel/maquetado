@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#nav{
+    background-color: blueviolet;
+    height: 30px;
+    border-radius: 5px;
+    }
+
+.nav__text--blue{
+    margin-left: 10px;
+    color: blue;
+}
+.nav__text--green{
+    color:green;
+}
+.aside__navigation{
+    display: inline-block;
+    background-color: orange;
+    width: 30%;
+    height: 250px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.main__container{
+    width: 34%;
+    height: 250px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+    .article__side{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.footer__container{
+    height: 40px;
+    background-color: purple;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+/*se agrupan tambien clases con un coma*/
+p, span, div {
+
+color:hotpink
+
+}
+
+.welcome__text, .welcome__description {
+color: blue;
+
+}
+/* > es el selector hijo*/
+.prices__container > p{
+    font-weight: bold;
+}
+.prices__container > p > .prices_discount--red {
+    color:blue;
+    font-weight: bold;
+    font-size: x-large;
+}
+.buttons__container > .buttons__ecommerce , .login__container > .buttons__ecommerce {
+    
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+
+}
+.buttons__container > .buttons__add{
+    color:brown;
+    background-color: aqua;
+}
+.buttons__container > .buttons__buy{
+background-color: yellow;
+
+
+}
+
+.buttons__ecommerce:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.buttons__ecommerce[type*="button"]:hover{
+    color:white;
+}
+
+.login__container > input[type*="password"]{
+    color:hotpink;
+}
+.buttons__ecommerce[type*="submit"]:hover{
+    color:white;
+}

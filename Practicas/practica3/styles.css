@@ -1,0 +1,129 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./design/RedHatDisplay-VariableFont_wght.ttf);
+  }
+
+
+body{
+width: 1440px;
+background-image:url(./images/pattern-background-desktop.svg);
+background-repeat: no-repeat;
+background-color: hsl(225, 100%, 94%);
+}
+
+.image_header {
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 1px 1px 10% black;
+  }
+  .background{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+    height: 450px;
+    box-shadow: 1px 10px 10px rgb(212, 211, 211);
+    box-sizing: border-box;
+
+  }
+  .container__orderSumary{
+    font-family: myFirstFont;
+    text-align: center;
+    font-size: 14px;
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 45px;
+  }
+ 
+  #tittle{
+    font-family: myFirstFont;
+    font-weight: 900;
+    font-size:24px;
+    color:hsl(223, 47%, 23%);
+    margin-top: 40px;
+  }
+  
+
+
+  #container {
+   
+    background-color: hsl(225, 100%, 98%);
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  #music__icon{
+    padding-left: 15px;
+    
+
+  }
+  #plan{
+    font-family: myFirstFont;
+    font-weight: 900;
+    text-align: left;
+    font-size: 16px;
+    
+  }
+  #price{
+    margin-top: 10px;
+    font-family: myFirstFont;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+  #change__plan{
+    font-family: myFirstFont;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  
+  
+  #payment__button{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: hsl(245, 75%, 52%);
+    height: 40px;
+    color: white;
+    font-family: myFirstFont;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgb(182, 179, 179);
+  }
+  #payment__button:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    color: hsl(225, 100%, 94%);
+  }
+  #cancel__order{
+    font-family: myFirstFont;
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: 25px;
+    color:hsl(224, 23%, 55%);
+    background-color:white;
+    border: none;
+    margin-left: 150px;
+
+  }
+  #cancel__order:hover {
+    
+    cursor: pointer;
+    color:hsl(223, 47%, 23%);
+  }
+  
+  a:hover {
+    color: hsl(224, 23%, 55%);
+  }

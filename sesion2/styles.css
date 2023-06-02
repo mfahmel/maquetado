@@ -1,0 +1,93 @@
+/* Selector de elemento */
+h1 {
+/* Aquí van las reglas*/
+color:brown;
+
+}
+p{
+color:darkgreen
+
+
+}
+span {
+color:darkgoldenrod
+
+}
+span{
+
+
+    color:#830000
+}
+span{
+    color: rgb(25, 25, 90)
+
+}
+#name {
+color:rgb(245, 33, 5)
+
+}
+#lastName {
+
+    color: coral;
+}
+.myBox {
+background-color: aqua;
+height: 90px;
+width:50%;
+
+}
+#superId {
+    background-color: rgb(201, 175, 195);
+    height: 90px;
+    width:90px ;
+    
+    }
+
+.myText {
+
+font-size: 22px;
+color: rgb(179, 179, 51);
+font-weight: bold;
+
+
+}
+body{
+
+    background-color: rgb(250, 224, 224);
+}
+.parent_container{
+    width: 100%;
+    background-color: aliceblue;
+
+
+}
+header{
+    /*vw es el viewport que es el area en que se ve*/
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+#dentro {
+    margin: 30px;
+    padding: 20px;
+background-color: blue;
+color: white;
+box-sizing: content-box;
+border-radius: 10px;
+border: 3px solid white;
+
+}
+#fuera {
+    margin: 30px;
+    padding: 20px;
+background-color: blue;
+color: white;
+box-sizing: border-box;
+/*Border box hace que la cajita se quede del tamaño que le decimos sin importar lo que pase*/
+
+}
+/*Selector Universal*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
