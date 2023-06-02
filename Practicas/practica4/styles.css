@@ -1,5 +1,5 @@
 .container {
-    background-color: gray;
+    background-color: rgb(50, 54, 68);
     width: 800px;
     height: 400px;
     padding-left: 50px;
@@ -21,45 +21,79 @@
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .promo__container--blue {
-    background-color: blue;
+    background: linear-gradient(to right, #8189D9, #8EE1E1);
     margin-right: 50px;
 }
 
+
 .promo__container--red {
-    background-color: red;
+    background: linear-gradient(to right, tomato, #FE4365);
     height: 320px;
+
 }
 
 .promo__container--green {
-    background-color: green;
+    background: linear-gradient(to right, #8BBD3A, #07B196);
     margin-left: 50px;
-}
+    }
 
 .promo__title {
     font-size: 10px;
     font-weight: bolder;
+    text-shadow: 0px 1px 1px black;
 }
 
 .promo__price {
     margin-top: 0px;
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 10px;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 900;
+    position: relative;
+    z-index: 1; 
 }
 
 .promo__sign {
     font-size: 15px;
+    font-weight: 1000;
+    text-shadow: 0px 1px 1px black;
+}
+
+.promo__price--z-axis {
+    margin-top: 0px;
+    font-size: 70px;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 900;
+    position: absolute;
+    z-index: 0; 
+    opacity: 0.05;
+    font-size: 100px;
+    transition: all 0.3s ease;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promo__sign--z-axis {
+    font-size: 15px;
+    font-weight: 1000;
+    text-shadow: 0px 1px 1px black;
 }
 
 .promo__plan {
     font-weight: bolder;
+    text-shadow: 0px 1px 1px black;
 }
 
 .promo__text {
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 9px;
+    font-weight: 1000;
+    text-shadow: 0px 1px 1px black;
 }
 
 .promo__suscribe {
@@ -73,6 +107,7 @@
     border-radius: 10px 0px 10px 0px;
     border: none;
     font-weight: bolder;
+    background-color: #FEFEFE;
 }
 
 .promo__container:hover {
@@ -83,5 +118,4 @@
 .promo__container:hover .promo__suscribe {
     width: 100%;
     font-size: 14px;
-    
 }
