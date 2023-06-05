@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*MOVIL*/
+
+
+@media only screen and (min-width: 0px) {
+    body{
+        width: 100vb;
+    }
+    .main__container{
+        background-image: url(./documentos/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        height: 700px;
+        display: inline-block;
+    }
+    .container__1{
+        display: block;
+        padding: 30px;
+        box-sizing: border-box;
+
+            }
+    .container_image1{
+        width: 300px;
+        height: 200px;
+        display: block;
+
+    }
+    .logo{
+        height: 100px;
+        width: 150px;
+        margin-bottom: 50px;
+    }
+    .container__2{
+        display: block;
+        width: 375px;
+        height: 200px;
+        padding: 20px;
+    }
+    .build{
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 900;
+    }
+  
+}
+
+/*DESKTOP*/
+
+@media only screen and (min-width: 375px) {
+    .main__container{
+        background-image: url(./documentos/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+        height: 720px;
+        
+    }
+    .container__1{
+        width: 720px;
+            }
+}
